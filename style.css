@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: rgb(15, 172, 122);
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(139, 158, 99);
+    padding-left: 30px;
+}
+
+#posts{
+    width: 400px;
+}
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+
+i{
+    cursor: pointer;
+}
+#msg{
+    color: brown;
+}
+textarea{
+    background-color: darkgrey;
+}
+
+button{
+    background-color: rgb(94, 94, 216);
+}
